@@ -14,16 +14,16 @@
         android:theme="@style/Theme.SummerPractice2022TvTracker"
         tools:targetApi="31">
         <activity
-            android:name=".registration.RegistrationActivity"
+            android:name=".presentation.registration.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".details.DetailsActivity"
+            android:name=".presentation.details.DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".presentation.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".login.LoginActivity"
+            android:name=".presentation.login.LoginActivity"
             android:exported="true" />
     </application>
 </manifest>

@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/popularFragment"
-        android:name="com.summer.practice.tvtracker.popular.PopularFragment"
+        android:name="com.summer.practice.tvtracker.presentation.popular.PopularFragment"
         android:label="fragment_popular"
         tools:layout="@layout/fragment_popular" />
 
     <fragment
         android:id="@+id/topRatedFragment"
-        android:name="com.summer.practice.tvtracker.topRated.TopRatedFragment"
+        android:name="com.summer.practice.tvtracker.presentation.topRated.TopRatedFragment"
         android:label="fragment_top_rated"
         tools:layout="@layout/fragment_top_rated" />
 
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.summer.practice.tvtracker.favorites.FavoritesFragment"
+        android:name="com.summer.practice.tvtracker.presentation.favorites.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" />
 </navigation>
